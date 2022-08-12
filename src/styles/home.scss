@@ -1,0 +1,130 @@
+@import './color';
+@import './fonts';
+
+.products{
+    padding: 0 15%;
+    
+    background-color:$--white;
+    z-index: 1;
+
+    .productbox{
+        width: 100%;
+        padding:2px;
+        transition: transform .9s,-webkit-transform .9s;
+        margin-top:-40px !important;
+
+        img{
+            width: 100%;
+        }
+
+        .productboxheading{
+            background: #1B252CD9 0% 0% no-repeat padding-box;
+            opacity: 1;
+            padding:5px 20px;
+            color:$--white;
+            border-bottom: 4px solid $--primary-brand;
+            overflow: hidden;
+            position: relative;
+            top: -70px;
+            width: auto;
+        }
+    }
+    
+}
+
+.singature{
+    padding:0 15%;
+    margin:50px 0;    
+    img{width: 100%; height:auto;}
+
+    .midhead{
+    color: $--unnamed-color-172026;
+    font: normal normal 600 48px/60px Source Serif Pro;
+    font-size: 48px;
+    letter-spacing: 0;
+    opacity: 1;
+    text-align: left;
+    }
+
+    .midsubhead{
+        font-size:20px;
+        padding:10px 0;
+    }
+
+    p{
+        font-size:15px;
+        padding-bottom: 0.25rem;
+    padding-top: 0.25rem;
+    }
+
+    .signbtn{display:flex;
+    padding: 10px;
+    margin:10px;
+    flex-direction: row;
+
+        .button1{
+            padding:10px;
+            margin:0 10px 0 ;
+            border-radius: 10px;
+            width: 200px;
+            border:2px solid $--primary-brand;
+        }
+        .button2{
+            padding:10px;
+            background-color: $--primary-brand;
+            color:$--white;
+            margin:0 10px 0 ;
+            border-radius: 10px;
+            border:2px solid $--primary-brand;
+            width: 200px;
+        }
+    }
+}
+
+.adventure{
+    padding:0 15%;
+    margin:50px 0;    
+    
+    .adventurebox{
+        background-color: #1B252C;
+        opacity: 1;
+        color:$--white;
+        padding:2rem;
+        height:275px;
+
+        h3{
+            font: $--unnamed-font-style-normal normal $--unnamed-font-weight-600 $--unnamed-font-size-48/$--unnamed-line-spacing-60 $--unnamed-font-family-source-serif-pro;
+            letter-spacing: $--unnamed-character-spacing-0;
+            color: $--white;
+            text-align: left;
+            font: normal normal 600 48px/60px Source Serif Pro;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            opacity: 1;
+        }
+        p{
+            font: $--unnamed-font-style-normal normal $--unnamed-font-weight-600 $--unnamed-font-size-48/$--unnamed-line-spacing-60 $--unnamed-font-family-source-serif-pro;
+            letter-spacing: var(--unnamed-character-spacing-0);
+            color: var(--white);
+            text-align: left;
+            font: normal normal 600 20px/25px Muli;
+            letter-spacing: 0px;
+            color: $--white;
+            opacity: 1;
+            padding:10px 0;
+        }
+        .shopdevice{
+            border:2px solid $--white;
+            background-color: #1B252C;
+            padding:10px 20px;
+            color:$--white;
+            margin:10px 0;
+            border-radius: 10px;
+        }
+    }
+
+    img{
+        width:100%;
+        padding:10px 0;
+    }
+}
